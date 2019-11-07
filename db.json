@@ -1,62 +1,16 @@
-[
-  {
-    "Idcity": 1,
-    "id": 1,
-    "cityname": "Moscow",
-    "Weather": "Rain"
-  },
-  {
-    "Idcity": 1,
-    "id": 2,
-    "cityname": "Saint Petersburg",
-    "Weather": "Sunny"
-  },
-  {
-    "Idcity": 1,
-    "id": 3,
-    "cityname": "Bryansk",
-    "Weather": "Rain"
-  },
-  {
-    "Idcity": 1,
-    "id": 4,
-    "cityname": "Minsk",
-    "Weather": "Sunny"
-  },
-  {
-    "Idcity": 1,
-    "id": 5,
-    "cityname": "Kiev",
-    "Weather": "Rain"
-  },
-  {
-    "Idcity": 1,
-    "id": 6,
-    "cityname": "Eagle",
-    "Weather": "Sunny"
-  },
-  {
-    "Idcity": 1,
-    "id": 7,
-    "cityname": "Smolensk",
-    "Weather": "Rain"
-  },
-  {
-    "Idcity": 1,
-    "id": 8,
-    "cityname": "Kursk",
-    "Weather": "Sunny"
-  },
-  {
-    "Idcity": 1,
-    "id": 9,
-    "cityname": "Trubchevsk",
-    "Weather": "Rain"
-  },
-  {
-    "Idcity": 1,
-    "id": 10,
-    "cityname": "Pripyat",
-    "Weather": "Sunny"
-  },
-]
+{
+  "posts": [
+    { "id": 1, "title": "my-json-server", "author": "typicode" }
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" },
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  }
+}
